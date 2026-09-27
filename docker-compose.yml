@@ -1,0 +1,12 @@
+services:
+  application:
+    image: hrdhrd5/calendar-from-pdf
+    ports:
+      - "127.0.0.1:5232:5232"
+      - "[::1]:5232:5232"
+    environment:
+      - CALENDAR_URL=
+      - CALENDAR_PAGE_URL=
+      - CALENDAR_PAGE_KEY=
+      # Util for generating safe secrets: python3 -c "print(__import__('secrets').token_urlsafe(64))"
+      - PUBLIC_PASSWORD=
