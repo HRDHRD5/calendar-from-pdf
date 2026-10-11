@@ -1,8 +1,8 @@
 beautifulsoup4==4.15.0
 certifi==2026.7.22
 cffi==2.1.1
-charset-normalizer==3.5.1
-cryptography==50.0.1
+charset-normalizer==3.5.2
+cryptography==50.0.2
 icalendar==7.3.0
 idna==3.20
 lxml==6.1.3
@@ -10,9 +10,9 @@ pdfminer.six==20260107
 pdfplumber==0.11.10
 pillow==12.3.0
 pycparser==3.0
-pypdfium2==5.13.0
+pypdfium2==5.14.0
 python-dateutil==2.9.0.post0
-python-dotenv==1.2.3
+python-dotenv==1.2.4
 requests==2.34.2
 six==1.17.0
 soupsieve==2.10

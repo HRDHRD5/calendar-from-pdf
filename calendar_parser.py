@@ -145,7 +145,7 @@ def create_ics(courses: list[str, Any]) -> Generator[str, None, None]:
         for course in courses:
             cal.add_component(Event.new(
                 summary=course["course"],
-                description=f"Room: {course['course']}; Lect: {course['lecturer']}",
+                description=f"Room: {course['room']}; Lect: {course['lecturer']}",
                 start=course["start"],
                 end=course["end"]
             ))
