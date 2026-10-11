@@ -16,7 +16,7 @@ from icalendar import Calendar, Event
 __TABLE_HEAD_RE__ = re.compile(r"^\w+, *([0-9]+)\. *(\w+) *([0-9]{4,4})$")
 __TABLE_COURSE_RE__ = re.compile(r"^([0-9]+)\.$")
 __COURSE_TIME_RE__ = re.compile(r"^([0-9]+):([0-9]+) *[-\u2013] *([0-9]+):([0-9]+)$")
-__COURSE_NAME_RE__ = re.compile(r"^([\w\d()/\. ]+[\-\u2013]?)+$")
+__COURSE_NAME_RE__ = re.compile(r"^([\w\d()/\. ]+[\-\u2013\&]?)+$")
 
 
 # Dont wanna mess with locales, so just Mapping all the months
